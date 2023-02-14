@@ -5,5 +5,5 @@ class Point:
         self.y = y
 
     def __str__(self):
-        return f"{self.x}, {self.y}"
-    
+        return f"({self.x}, {self.y}) abc"
+
