@@ -13,4 +13,5 @@ class Point:
 
     def area_of_circle(self):
         print()
+        print()
 
