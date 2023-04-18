@@ -9,7 +9,10 @@ class Point:
 
 
     def dist(self, p1, p2):
-        return math.sqrt((p1.x - p2.x) ** 2 + (p1.y - p2.y) ** 2)
+        return math.sqrt(
+            math.pow((p1.x - p2.x), 2) +
+            math.pow((p1.y - p2.y), 2)
+        )
 
     def area_of_circle(self, radius):
         return math.pi * math.pow(radius, 2)
