@@ -15,5 +15,5 @@ class Point:
         )
 
     def area_of_circle(self, radius):
-        return math.pi * math.pow(radius, 2)
+        return 3.14 * math.pow(radius, 2)
 
