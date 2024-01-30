@@ -17,3 +17,7 @@ class Point:
     def area_of_circle(self, radius):
         return 3.14 * math.pow(radius, 2)
 
+class Square:
+    def __init__(self, size):
+        self.size = size
+
