@@ -17,11 +17,10 @@ class Point:
     def area_of_circle(self, radius):
         return 3.14 * math.pow(radius, 2)
 
-<<<<<<< HEAD
 class Square:
     def __init__(self, size):
         self.size = int(size)
-=======
 
->>>>>>> f5bb92d (changed ownership of attributes)
-
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
