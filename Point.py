@@ -19,5 +19,5 @@ class Point:
 
 class Square:
     def __init__(self, size):
-        self.size = size
+        self.size = int(size)
 
