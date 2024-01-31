@@ -2,7 +2,7 @@ import math
 class Point:
     def __init__(self, x, y):
         self._x = x
-        self.y = y
+        self._y = y
 
     def __str__(self):
         return f"({self.x}, {self.y})"
@@ -17,7 +17,11 @@ class Point:
     def area_of_circle(self, radius):
         return 3.14 * math.pow(radius, 2)
 
+<<<<<<< HEAD
 class Square:
     def __init__(self, size):
         self.size = int(size)
+=======
+
+>>>>>>> f5bb92d (changed ownership of attributes)
 
